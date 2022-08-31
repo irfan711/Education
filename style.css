@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: aliceblue;
+    transition: 0.5;
+}
+.bg{
+    background-image: url(/images/hero-1.png.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.nav{
+    display: flex;
+   /* background-color: blueviolet; */
+   height: 100px;
+   width: 45%;
+    justify-content:center;
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    background-image: url(./images/education.png);
+    background-position: center;
+    background-size: contain;
+}
+hr{
+    width: 74%;
+    height: 1px;
+    background-color: darkgray;
+    margin-left: 190px;
+    outline: none;
+    border: none;
+}
+header{
+    padding-top: 50px;
+}
+a:hover{
+    cursor: pointer;
+    color: red;
+    border-bottom: 2px solid deeppink;
+}
